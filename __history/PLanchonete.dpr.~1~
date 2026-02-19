@@ -1,0 +1,14 @@
+program PLanchonete;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  Uacesso in 'Uacesso.pas' {frmacesso};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(Tfrmacesso, frmacesso);
+  Application.Run;
+end.

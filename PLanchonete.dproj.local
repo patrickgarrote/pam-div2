@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026/02/19 11:44:36.812,=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/02/19 11:51:28.257,C:\etec\pam-div2\Uacesso.pas=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/02/19 11:51:28.257,C:\etec\pam-div2\Uacesso.fmx=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2026/02/19 11:51:37.832,C:\etec\pam-div2\PLanchonete.dproj=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/02/19 11:52:04.851,=C:\etec\pam-div2\Unit1.pas</Transaction>
+    <Transaction>2026/02/19 11:53:44.018,C:\etec\pam-div2\Umodulo.pas=C:\etec\pam-div2\Unit1.pas</Transaction>
+    <Transaction>2026/02/19 11:53:44.018,C:\etec\pam-div2\Umodulo.dfm=C:\etec\pam-div2\Unit1.dfm</Transaction>
+    <Transaction>2026/02/19 12:05:55.638,=C:\etec\pam-div2\Unit1.pas</Transaction>
+    <Transaction>2026/02/19 12:10:45.564,C:\etec\pam-div2\Uiuusuario.pas=C:\etec\pam-div2\Unit1.pas</Transaction>
+    <Transaction>2026/02/19 12:10:45.564,C:\etec\pam-div2\Uiuusuario.fmx=C:\etec\pam-div2\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>

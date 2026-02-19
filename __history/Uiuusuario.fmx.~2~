@@ -1,0 +1,114 @@
+object frmiuusuario: Tfrmiuusuario
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro e Altera'#231#227'o'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Padding.Left = 2.000000000000000000
+    Padding.Top = 2.000000000000000000
+    Padding.Right = 2.000000000000000000
+    Padding.Bottom = 2.000000000000000000
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Size.Width = 634.000000000000000000
+    Size.Height = 474.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout2: TLayout
+      Align = Top
+      Padding.Left = 2.000000000000000000
+      Padding.Top = 2.000000000000000000
+      Padding.Right = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Position.X = 2.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object edtusunome: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 0
+        Text = 'Digite seu Nome Completo'
+        TextSettings.HorzAlign = Center
+        Size.Width = 626.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Digite seu Nome Completo'
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Padding.Left = 2.000000000000000000
+      Padding.Top = 2.000000000000000000
+      Padding.Right = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Position.X = 2.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object edtusulogin: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 0
+        Text = 'Digite seu Usu'#225'rio'
+        TextSettings.HorzAlign = Center
+        Size.Width = 626.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Digite seu Usu'#225'rio'
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Padding.Left = 2.000000000000000000
+      Padding.Top = 2.000000000000000000
+      Padding.Right = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Position.X = 2.000000000000000000
+      Position.Y = 102.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object edtususenha: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 0
+        Text = 'Digite sua Senha'
+        TextSettings.HorzAlign = Center
+        Size.Width = 626.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Digite sua Senha'
+      end
+    end
+    object Layout5: TLayout
+      Align = Bottom
+      Position.X = 2.000000000000000000
+      Position.Y = 422.000000000000000000
+      Size.Width = 630.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object Btngravar: TButton
+        Align = Center
+        TabOrder = 0
+        Text = 'Gravar'
+        TextSettings.Trimming = None
+      end
+    end
+  end
+end

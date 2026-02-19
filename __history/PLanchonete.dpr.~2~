@@ -1,0 +1,16 @@
+program PLanchonete;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  Uacesso in 'Uacesso.pas' {frmacesso},
+  Umodulo in 'Umodulo.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(Tfrmacesso, frmacesso);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.
