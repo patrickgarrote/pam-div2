@@ -15,6 +15,11 @@ type
   Tdm = class(TDataModule)
     Conexao: TFDConnection;
     usuario: TFDQuery;
+    usuariousuid: TFDAutoIncField;
+    usuariousunome: TWideMemoField;
+    usuariousulogin: TWideMemoField;
+    usuarioususenha: TWideMemoField;
+    usuariousulogado: TBooleanField;
   private
     { Private declarations }
   public
