@@ -24,8 +24,8 @@ type
     { Private declarations }
   public
     { Public declarations }
-    USUID:INTEGER;
-    USULOGADO:BOOLEAN;
+    ID:INTEGER;
+    LOGADO:BOOLEAN;
   end;
 
 var
@@ -68,7 +68,9 @@ end;
 
 procedure Tfrmiuusuario.FormShow(Sender: TObject);
 begin
-id:= 1;
+if (id<>0) then
+begin
+
 with dm.usuario do
 begin
   close;
@@ -80,6 +82,7 @@ end;
         edtusunome.text:=dm.usuariousunome.AsString;
         edtusulogin.text:=dm.usuariousulogin.AsString;
         edtususenha.text:=dm.usuarioususenha.AsString;
+end;
 end;
 
 end.

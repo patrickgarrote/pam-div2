@@ -7,6 +7,7 @@ object frmlistausuarios: Tfrmlistausuarios
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  OnShow = FormShow
   DesignerMasterStyle = 0
   object Layout1: TLayout
     Align = Client
@@ -93,20 +94,21 @@ object frmlistausuarios: Tfrmlistausuarios
         TabOrder = 1
         Text = 'Button2'
         TextSettings.Trimming = None
+        OnClick = Button2Click
       end
     end
   end
   object BindSourceDB1: TBindSourceDB
     DataSet = dm.usuario
     ScopeMappings = <>
-    Left = 304
-    Top = 224
+    Left = 136
+    Top = 112
   end
   object BindingsList1: TBindingsList
     Methods = <>
     OutputConverters = <>
-    Left = 20
-    Top = 5
+    Left = 68
+    Top = 117
     object LinkListControlToField1: TLinkListControlToField
       Category = 'Quick Bindings'
       DataSource = BindSourceDB1
